@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.rosa{
+	background-color:#6C757D;
+	height: 100px;
+}
+
+.azuldark{
+	background-color:#017BFF;
+	color:white;
+}
+
+.naranja{
+	background-color:black;
+	color: white;
+	text-align: center;
+}
+
+
+.card-body{
+	background-color: black;
+	color: white;
+}
+
+#footer {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color:#343A40;
+    color: white;
+    text-align: center;
+ }
+
+.turquesa{
+	color: aliceblue;
+	background-color: black;
+	font-size: x-large;
+}
+
+.btn-outline-secondary{
+	color: black;
+	background-color: white;
+}
+
+body{
+	background-color: black;
+}
