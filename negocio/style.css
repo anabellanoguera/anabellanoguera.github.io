@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+
+.jumbotron{
+	background-position: center;
+	background-color:white;
+}
+
+.navbar{
+	background-color: black!important;
+
+	
+}
+.nav-link{
+	color: #FFFFFF !important;
+}
+	
+.btn{
+	color: white!important;
+	border-color:#1AA89E!important;
+	
+}
+
+.navbar-brand{
+	color: white!important;
+}
+
+.navbar-toggler{
+	background-color: white!important;
+}
+
+.card{
+	border-color: #1AA89E;	
+}
+
+.btn-primary{
+	background-color: #1AA89E;
+}
+
+#footer {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color:black;
+    color: white;
+    text-align: center;
+	width: 100%;
+ }
+
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.blanco{
+	background-image: url(images/fondohero.jpg);
+}
+
+h1{
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.origins{
+	padding-bottom: 10px;
+}
