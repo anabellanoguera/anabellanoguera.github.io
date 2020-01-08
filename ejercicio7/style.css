@@ -1,0 +1,334 @@
+@charset "UTF-8";
+
+
+.animacion-4{
+	height: auto;
+	background: rgba(255,255,255,1.00);
+	color: white;
+	transition: all 2s;
+}
+
+.animacion-4.visible{
+	background: rgba(0,0,0,1.00);
+	color: white;
+	
+}
+
+.recomendados{
+	width: 0%;
+	margin-left: auto;
+	margin-right: 0px;
+	transition: width 2s;
+}
+
+.recomendados.visible{
+	width: 100%;	
+}
+
+
+#progress{
+	height: 5px;
+	width: 0;
+	background:rgba(0,103,132,1.00);
+	position:fixed;
+	top:0;
+	z-index: 10;
+	transition: width 1s;
+}
+
+#progress.width-25{
+	width: 25%
+}
+
+#progress.width-50{
+	width: 50%
+}
+
+#progress.width-75{
+	width: 75%;
+}
+
+#progress.width-100{
+	width: 100%;
+}
+
+
+.card-header{
+	background-color: rgba(0,103,132,1.00);
+	color: white;
+}
+
+#card1 .card-body {
+	display: none;
+	background-color: black;
+	color: white;
+}
+
+.list-group{
+	position: relative;
+	height: 300px;
+}
+.list-group-item{
+	width: 20%;
+	height: 4000px;
+	background:rgba(0,103,132,1.00);
+	margin-bottom: 30px;
+}
+
+.menu{
+	text-align: center;
+}
+
+.caja0:hover {
+width:100%!important;
+background-color: black !important;
+color: white !important;
+border-color: rgba(255,255,255,1.00)!important;
+border-style: solid!important;
+border-radius:0%;
+}
+
+.caja0{
+	transition: all 2s ease;
+	color: rgba(255,255,255,0.00)!important;
+	background-color: rgba(0,103,132,1.00) !important;
+	border-color: rgba(0,0,0,0.00)!important;
+	height: 50px;
+	border-radius:100%;
+}
+
+.caja0.visible{
+	background-color: black!important;
+	color: white!important;
+	width: 100%!important;
+	border-color: rgba(255,255,255,1.00)!important;
+	border-style: solid!important;
+	border-radius:0%;
+}
+
+.cajacontacto:hover {
+width:100%!important;
+background-color: black !important;
+color: white !important;
+border-color: rgba(255,255,255,1.00)!important;
+border-style: solid!important;
+border-radius:0%;
+}
+
+.cajacontacto{
+	transition: all 2s ease;
+	color: rgba(255,255,255,0.00)!important;
+	background-color: rgba(0,103,132,1.00) !important;
+	border-color: rgba(0,0,0,0.00)!important;
+	height: 50px;
+	border-radius:100%;
+}
+
+.cajacontacto.visible{
+	background-color: black!important;
+	color: white!important;
+	width: 100%!important;
+	border-color: rgba(255,255,255,1.00)!important;
+	border-style: solid!important;
+	border-radius:0%;
+}
+
+.caja1:hover {
+width:100%;
+background-color: black;
+color: white;
+border-color: rgba(255,255,255,1.00);
+border-style: solid;
+border-radius:0%; 
+}
+
+.caja1{
+	transition: all 2s ease; 
+	color:rgba(255,255,255,0.00);
+	height: 50px;
+	border-radius:100%; 
+}
+
+.caja1.visible{
+	background-color: black;
+	color: white;
+	width: 100%;
+	border-color: rgba(255,255,255,1.00);
+	border-style: solid;
+	border-radius:0%;
+}
+
+
+.caja2:hover {
+width:100%;
+background-color: black;
+color: white;
+border-color: rgba(255,255,255,1.00);
+border-style: solid;
+border-radius:0%;
+}
+
+.caja2{
+	transition: all 2s ease; 
+	color:rgba(255,255,255,0.00);
+	height: 50px;
+	border-radius:100%;
+}
+
+.caja2.visible{
+	background-color: black;
+	color: white;
+	width: 100%;
+	border-color: rgba(255,255,255,1.00);
+	border-style: solid;
+	border-radius:0%;
+}
+
+.caja3:hover {
+width:100%;
+background-color: black;
+color: white;
+border-color: rgba(255,255,255,1.00);
+border-style: solid;
+border-radius:0%;
+}
+
+.caja3{
+	transition: all 2s ease; 
+	color:rgba(255,255,255,0.00);
+	height: 50px;
+	border-radius:100%;
+}
+
+.caja3.visible{
+	background-color: black;
+	color: white;
+	width: 100%;
+	border-color: rgba(255,255,255,1.00);
+	border-style: solid;
+	border-radius:0%;
+}
+
+.caja4:hover {
+width:100%;
+background-color: black !important;
+color: white !important;
+border-color: rgba(255,255,255,1.00) !important;
+border-style: solid;
+border-radius:0%;
+}
+
+.caja4{
+	transition: all 2s ease;
+	color: rgba(255,255,255,0.00)!important;
+	background-color: rgba(0,103,132,1.00) !important;
+	border-color: rgba(0,0,0,0.00)!important;
+	height: 50px;
+	border-radius:100%;
+}
+
+.caja4.visible{
+	background-color: black !important;
+	color: white !important;
+	width: 100%;
+	border-color: rgba(255,255,255,1.00)!important;
+	border-style: solid;
+	border-radius:0%;
+}
+
+.cajawork:hover {
+width:100%!important;
+background-color: black !important;
+color: white !important;
+border-color: rgba(255,255,255,1.00)!important;
+border-style: solid!important;
+border-radius:0%;
+}
+
+.cajawork{
+	transition: all 2s ease;
+	color: rgba(255,255,255,0.00)!important;
+	background-color: rgba(0,103,132,1.00) !important;
+	border-color: rgba(0,0,0,0.00)!important;
+	height: 50px;
+	border-radius:100%;
+}
+
+.cajawork.visible{
+	background-color: black!important;
+	color: white!important;
+	width: 100%!important;
+	border-color: rgba(255,255,255,1.00)!important;
+	border-style: solid!important;
+	border-radius:0%;
+}
+
+.caja5:hover {
+width:100%;
+background-color: black !important;
+color: white !important;
+border-color: rgba(255,255,255,1.00) !important;
+border-style: solid;
+border-radius:0%;
+}
+
+.caja5{
+	transition: all 2s ease;
+	color: rgba(255,255,255,0.00)!important;
+	background-color: rgba(0,103,132,1.00) !important;
+	border-color: rgba(0,0,0,0.00)!important;
+	height: 50px !important;
+	border-radius:100%;
+}
+
+.caja5.visible{
+	background-color: black !important;
+	color: white !important;
+	width: 100%;
+	border-color: rgba(255,255,255,1.00)!important;
+	border-style: solid;
+	border-radius:0%;
+}
+
+.animacion-3{
+	transition: transform 1s ease-out;
+	
+}
+.animacion-3:hover{
+	transform:scale(1.5);
+}
+
+.card{
+	overflow: hidden;
+}
+
+.btn{
+	background-color: rgba(0,103,132,1.00);
+	border: rgba(0,0,0,1.00);
+	
+}
+
+.btn:hover{
+	background-color: black;
+}
+
+.jumbotron{
+	background-image:url(images/hola.jpg);
+	height: 500px;
+	background-position: center;
+}
+
+.col-3{
+	background-color: black;
+	height: 5000px;
+}
+
+.fondo{
+background-color:black;
+color: white;
+}
+
+.container{
+	align-content: center;
+}
+
