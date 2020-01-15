@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+i{
+	transition: all 0.1s;
+	color:black !important;
+}
+
+i:hover {
+	color: greenyellow !important;
+}
+
+.circulo{
+	transition: all 0.3s;
+	background-color: red;
+	display: inline-block;
+	font-size: 30px;
+	border-radius: 50%;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+}
+
+.circulo:hover {
+	transform:scale(1.1);
+}
+
+svg{
+	stroke:#000;
+	stroke-width:2;
+	fill:none;
+}
+
+#bordecirc:hover{
+	fill: #ddd;
+	stroke:rgba(80,99,255,1.00) ;
+	stroke-width: 5;
+}
+
+.centro:hover{
+	fill: greenyellow;
+	stroke: black;
+	stroke-width: 5;
+}
+
+#helix1:hover{
+	fill: #000;
+	stroke:rgba(80,99,255,1.00) ;
+	stroke-width: 5;
+	
+}
+
+#helix2:hover{
+	fill: #000;
+	stroke:greenyellow;
+	stroke-width: 5;
+	
+}
+
+#helix3:hover{
+	fill: #000;
+	stroke:rgba(80,99,255,1.00) ;
+	stroke-width: 5;
+	
+}
+
+#helix4:hover{
+	fill: #000;
+	stroke:greenyellow;
+	stroke-width: 5;
+	
+}
+
+#helix1{
+	stroke-dasharray: 340;
+    stroke-dashoffset: 40;
+	animation: dash 1.5s linear alternate infinite;
+}
+
+#helix2{
+	stroke-dasharray: 340;
+    stroke-dashoffset: 40;
+	animation: dash 1.5s linear alternate infinite;
+}
+
+#helix3{
+	stroke-dasharray: 340;
+    stroke-dashoffset: 40;
+	animation: dash 1.5s linear alternate infinite;
+}
+
+#helix4{
+	stroke-dasharray: 340;
+    stroke-dashoffset: 40;
+	animation: dash 1.5s linear alternate infinite;
+}
+
+
+@keyframes dash {
+    from {
+      stroke-dashoffset: 360;
+    }
+    to {
+      stroke-dashoffset: 40;
+    }
+  }
+
+#cuadrado{
+		fill: rgba(80,99,255,1.00);
+		
+	
+}
+
+#cuadrado{
+	animation: a7 linear infinite 2s;
+	transform-origin: 50% 50%;
+}
+
+@keyframes a7 {
+	from{transform: rotate(0deg)}
+	to{transform: rotate(180deg)}
+}
+
+
+#pequecirculo:hover{
+	fill: rgba(80,99,255,1.00);
+}
+
+#pequecirculo{
+	fill:white;
+}
+
+.footer{
+	margin-left: 40%;
+	bottom: 0;		
+}
+
+.btn{
+	background-color: greenyellow;
+	color: black;
+}
+
+.btn:hover{
+	background-color: rgba(80,99,255,1.00);
+}
