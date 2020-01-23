@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.principal img{
+	width: 100%;
+}
+
+#footer{
+	width: 100%;
+	bottom: 0;
+}
+
+#footer a{
+	text-decoration: none;
+}
+
+.cuestionario{
+	margin-left: 20px;
+}
+
+i:hover{
+	color: cornflowerblue;
+}
